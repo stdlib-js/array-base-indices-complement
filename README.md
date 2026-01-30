@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import indicesComplement from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-indices-complement@esm/index.mjs';
+import indicesComplement from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-indices-complement@v0.1.0-esm/index.mjs';
 ```
 
 #### indicesComplement( N, indices )
@@ -99,7 +99,7 @@ The function accepts the following arguments:
 <body>
 <script type="module">
 
-import indicesComplement from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-indices-complement@esm/index.mjs';
+import indicesComplement from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-indices-complement@v0.1.0-esm/index.mjs';
 
 var out = indicesComplement( 5, [ 1, 3, 4 ] );
 // returns [ 0, 2 ]
