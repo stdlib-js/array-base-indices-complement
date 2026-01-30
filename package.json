@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-base-indices-complement",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Return the complement of a list of array indices.",
   "license": "Apache-2.0",
   "author": {
@@ -76,7 +76,6 @@
     "utils",
     "util"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
