@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import indicesComplement from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-indices-complement@deno/mod.js';
+import indicesComplement from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-indices-complement@v0.1.0-deno/mod.js';
 ```
 
 #### indicesComplement( N, indices )
@@ -94,7 +94,7 @@ The function accepts the following arguments:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import indicesComplement from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-indices-complement@deno/mod.js';
+import indicesComplement from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-indices-complement@v0.1.0-deno/mod.js';
 
 var out = indicesComplement( 5, [ 1, 3, 4 ] );
 // returns [ 0, 2 ]
