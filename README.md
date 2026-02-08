@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import indicesComplement from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-indices-complement@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-indices-complement/tags). For example,
+
+```javascript
 import indicesComplement from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-indices-complement@v0.1.1-esm/index.mjs';
 ```
 
@@ -99,7 +104,7 @@ The function accepts the following arguments:
 <body>
 <script type="module">
 
-import indicesComplement from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-indices-complement@v0.1.1-esm/index.mjs';
+import indicesComplement from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-indices-complement@esm/index.mjs';
 
 var out = indicesComplement( 5, [ 1, 3, 4 ] );
 // returns [ 0, 2 ]
